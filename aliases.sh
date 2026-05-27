@@ -91,9 +91,13 @@ alias cls='clear'
 alias h='history'
 alias j='jobs -l'
 
-# Reboot / shutdown
-alias rebootnow='reboot'
-alias poweroffnow='poweroff'
+alias whereami='echo "Host: $(hostname -f) | IP: $(hostname -I)"'
+
+alias rm='rm -Iv --preserve-root'
+alias cp='cp -iv'
+alias mv='mv -iv'
+
+alias myip='curl -4 ifconfig.me && echo'
 
 # Search processes
 pg() {
