@@ -79,7 +79,7 @@ alias sshrestart='systemctl restart ssh'
 # Quick editing
 alias hosts='nano /etc/hosts'
 alias bashrc='nano ~/.bashrc'
-alias aliases='nano /etc/profile.d/admin-aliases.sh'
+alias aliases='nano /etc/profile.d/aliases.sh'
 
 # Web servers
 alias nginxconf='nano /etc/nginx/nginx.conf'
